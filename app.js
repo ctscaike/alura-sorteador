@@ -36,12 +36,12 @@ function obterNumeroAleatorio(min, max){
 
 function alteraStatusBotao(){
     let botao = document.getElementById('btn-reiniciar');
-    if (botao.classList.contains('container_botao-desabilitado')) {
-        botao.classList.remove('container_botao-desabilitado');
-        botao.classList.add('container_botao');
+    if (botao.classList.contains('container__botao-desabilitado')) {
+        botao.classList.remove('container__botao-desabilitado');
+        botao.classList.add('container__botao');
     } else {
-        botao.classList.remove('container_botao');
-        botao.classList.add('container_botao-desabilitado');
+        botao.classList.remove('container__botao');
+        botao.classList.add('container__botao-desabilitado');
     }
 }
 
